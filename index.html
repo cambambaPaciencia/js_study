@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Estilização dos Layouts -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Ícones do Font Awesome -->
+    <script src="https://kit.fontawesome.com/8236aaed16.js" crossorigin="anonymous"></script>
+
+    <!-- Recursos JavaScript -->
+    <script type="module" src="./assets/js/Core.js"></script>
+   
+    <title>Study - Início</title>
+</head>
+<body>
+
+    <!-- conteudo principal -->
+    <main>
+        <!-- cabeçalho -->
+        <header>
+            <h1><i class="fa-solid fa-graduation-cap"></i> Study</h1>
+        </header>
+
+        <!-- descrição desta página -->
+        <hgroup id="app-info">
+            <h3>Estude Melhor</h3>
+            <p>Receba conselhos para melhorar seu desempenho acadêmico</p>
+        </hgroup>
+        
+        <!-- fórmulario -->
+        <div class="container">     
+                <div class="flex-container">
+                    <div class="form-item">
+                        <button class="solicitar">Solicitar Conselho</button>
+                    </div>
+                </div>
+        </div>
+        
+        <!-- conselho diário -->
+        <div id="conselho-diario" class="container conselho box-shadow">
+            <p class="title">Conselho Diário</p>
+            <p id="ask-advice">
+
+            </p>
+        </div>
+    
+        <!-- conselho pedido -->
+         <div id="conselho-pedido" class="container conselho box-shadow hide"> <!-- coloca hide -->
+            <p class="title">Conselho</p>
+            <p id="conselho"></p>
+        </div>
+
+        <!-- Estatítiscas -->
+        <div id="status" class="container box-shadow hide">
+            <p class="title">Estatítiscas</p>
+            <article id="status_detail">
+                <p>Distância Percorrida: <span id="distancia_percorrida"></span></p>
+                <p>Uso de Telemóvel: <span id="uso_telemovel"></span></p>
+                <p>Tempo de estudo: <span id="tempo_estudo"></span></p>
+                <p>Tempo de sono: <span id="tempo_sono"></span></p>        
+            </article>
+        </div>
+    
+    </main>
+
+    <!-- rodapé -->
+    <footer>
+        <ul class="menu">
+            <li><a href="./group.html"><i class="fa-solid fa-users"></i></a></li>
+            <li class="active"><a href="./index.html"><i class="fa-solid fa-house"></i></i></a></li>
+            <li><a href="./history.html"><i class=" fa-solid fa-history"></i></a></li>
+        </ul>
+    </footer>
+    
+    <!-- <footer>Copyright © 2023 KambaMath. Developed By MIGUEL KAMBAMBA</footer> -->
+    <script type="module" src="./assets/js/Core.js"></script>
+</body>
+</html>
